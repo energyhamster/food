@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 } else {
                     statusMessage.textContent = message.failure;
                 }
-            })
+            });
         });
     }
 });
