@@ -228,7 +228,7 @@ document.addEventListener("DOMContentLoaded", () => {
         failure: 'Some thing went wrong...'
     };
 
-    form.forEach(item => {
+    forms.forEach(item => {
         postData(item);
     });
 
