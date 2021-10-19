@@ -477,9 +477,9 @@ function sliders({container, slide, nextArrow, prevArrow, totalCounter, currentC
 
     dots.forEach(dot => {
         dot.addEventListener('click', (e) => {
-            const slideTo = e.target.getAttribute('data-slide-to');
+            slideIndex = +e.target.getAttribute('data-slide-to');
 
-            slideIndex = slideTo;
+
             showSlides(slideIndex);
             dotsOpacity(1, '.5');
         });
